@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+    <style>
+        .conteiner{
+            display: flex;
+        }
+        .box1{
+            width: 200px;
+            height: 150px;
+            padding: 20px;
+            box-sizing: content-box;
+            background-color: aqua;
+            margin: 10px;
+        }
+        .box2{
+            width: 200px;
+            height: 150px;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: blueviolet;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="box1">Box 1</div>
+    <div class="box2">Box 2</div>
+    </div>
+    <p>A primeira box terá 260px de largura total e 210px de altura total.</p>
+    <p>A segunda box terá 220px de largura total e 170px de altura total.</p>
+    <p>O border box faz com que o conteúdo seja limitado não somando o padding.</p>
+    <p>O content box é o que ja vem de padrão.</p>
+</body>
+</html>
